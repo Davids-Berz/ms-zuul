@@ -16,5 +16,11 @@ zuul:
       serviceId: ms-alumnos
       path: /api/alumnos/**
     cursos:
-      serviceId: ms-alumnos
+      serviceId: ms-cursos
       path: /api/cursos/**
+    examenes:
+      serviceId: ms-examenes
+      path: /api/examenes/**
+    respuestas:
+      serviceId: ms-respuestas
+      path: /api/respuesta/**
